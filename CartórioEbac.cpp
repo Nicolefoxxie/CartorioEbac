@@ -162,7 +162,7 @@ int main()
     printf("Login de adminstrador!\n\nDigite sua senha: ");
     scanf("%s",senhadigitada);
   
-    comparacao = strcmp(senhadigitada, "amor");
+    comparacao = strcmp(senhadigitada, "admin");
  
      if ( comparacao == 0)
      {
